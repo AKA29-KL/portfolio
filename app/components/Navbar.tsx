@@ -2,6 +2,7 @@
 
 import { FaMoon, FaSun } from "react-icons/fa";
 import useDarkMode from "../hooks/useDarkMode";
+import Link from "next/link";
 
 export default function Navbar() {
   const { darkMode, toggleDarkMode } = useDarkMode();
@@ -14,13 +15,17 @@ export default function Navbar() {
         color: "var(--navbar-text)",
       }}
     >
-      <nav className="flex justify-between items-center px-6 py-4">
-        <div className="flex space-x-6">
-          <a href="/" className="hover:text-blue-500 transition">Home</a>
-          <a href="/about" className="hover:text-blue-500 transition">About Me</a>
-          <a href="/projects" className="hover:text-blue-500 transition">Projects</a>
-          <a href="/contact" className="hover:text-blue-500 transition">Contact</a>
-        </div>
+    
+
+<nav className="flex justify-between items-center px-6 py-4">
+  <div className="flex space-x-6">
+    <Link href="/" className="hover:text-blue-500 transition">Home</Link>
+    <Link href="/about" className="hover:text-blue-500 transition">About</Link>
+    <Link href="/projects" className="hover:text-blue-500 transition">Projects</Link>
+    <Link href="/contact" className="hover:text-blue-500 transition">Contact</Link>
+  </div>
+
+
 
         {/* Bouton Dark Mode */}
         <button

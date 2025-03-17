@@ -26,12 +26,12 @@ export default function About() {
         transition={{ delay: 0.5, duration: 1 }}
       >
         <p>
-          I'm <span className="text-blue-400 font-semibold">Akerlie</span> a passionate web developer on an exciting journey. 
+          I&apos;m <span className="text-blue-400 font-semibold">Akerlie</span> a passionate web developer on an exciting journey. 
           Just a year ago, I was working in the healthcare field, searching for something that would allow me to express my creativity while leveraging technology.
         </p>
 
         <p>
-          I've always been resourceful when it comes to tech, and I learn fast. Transitioning to web development felt natural—every challenge is a puzzle waiting to be solved, 
+          I&aposve always been resourceful when it comes to tech, and I learn fast. Transitioning to web development felt natural—every challenge is a puzzle waiting to be solved, 
           and every project is an opportunity to create something meaningful.
         </p>
 
@@ -48,7 +48,7 @@ export default function About() {
         </p>
 
         <p>
-          If you're looking for someone who combines curiosity, determination, and a love for structured systems, count me in!
+          If you&aposre looking for someone who combines curiosity, determination, and a love for structured systems, count me in!
         </p>
       </motion.div>
     </div>
